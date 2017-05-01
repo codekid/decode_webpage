@@ -31,9 +31,10 @@ def main():
 		try:
 			if link.a:
 				
-				text =link.a.text.replace("\n", " ").strip().encode("utf-8")
+				text =link.a.text.strip().encode("utf-8")
+				# text =link.a.text.replace("\n", " ").strip().encode("utf-8")
 				# print(text)
-				f.write(text + "\n")
+				f.write(text)
 			else: 
 				
 				text = link.contents[0].strip().encode("utf-8")
