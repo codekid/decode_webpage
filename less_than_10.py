@@ -12,7 +12,7 @@ def main():
 		# validate if a number was entered. Otherwise return x
 		num = validator.isNumber(num)
 	
-		if (num != "x"):
+		if (num != False):
 			break
 		
 	
@@ -20,7 +20,9 @@ def main():
 	b =[]
 	lt_five = []
 
-	# loop through the array a
+	# loop through the list a 
+	# create a new list with all numbers less than num
+	# create another list with all numbers less 5
 	for number in a:
 
 		if (number < num):
