@@ -1,5 +1,10 @@
 # Print a game board of size NxN 
-
+# Eg
+#  --- ---
+# |   |   |
+#  --- ---
+# |   |   |
+#  --- ---
 def printBoard(size):
 
 	print " --- " * size
